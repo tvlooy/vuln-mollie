@@ -1,0 +1,2893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" version="1" serialNumber="urn:uuid:515c2728-76f7-4e69-83b3-b6297faf6143">
+  <metadata>
+    <timestamp><![CDATA[2023-11-16T15:29:04Z]]></timestamp>
+    <tools>
+      <tool>
+        <name><![CDATA[composer]]></name>
+        <version><![CDATA[2.6.5]]></version>
+      </tool>
+      <tool>
+        <vendor><![CDATA[cyclonedx]]></vendor>
+        <name><![CDATA[cyclonedx-php-composer]]></name>
+        <version><![CDATA[v4.2.2]]></version>
+        <externalReferences>
+          <reference type="distribution">
+            <url><![CDATA[https://api.github.com/repos/CycloneDX/cyclonedx-php-composer/zipball/1223dabb7fea864b218a3fbd32c0fb132e880559]]></url>
+            <comment><![CDATA[dist reference: 1223dabb7fea864b218a3fbd32c0fb132e880559]]></comment>
+          </reference>
+          <reference type="vcs">
+            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer.git]]></url>
+            <comment><![CDATA[source reference: 1223dabb7fea864b218a3fbd32c0fb132e880559]]></comment>
+          </reference>
+          <reference type="website">
+            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/#readme]]></url>
+            <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+          </reference>
+          <reference type="issue-tracker">
+            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/issues]]></url>
+            <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+          </reference>
+          <reference type="vcs">
+            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/]]></url>
+            <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+          </reference>
+        </externalReferences>
+      </tool>
+      <tool>
+        <vendor><![CDATA[cyclonedx]]></vendor>
+        <name><![CDATA[cyclonedx-library]]></name>
+        <version><![CDATA[v3.0.1]]></version>
+        <externalReferences>
+          <reference type="distribution">
+            <url><![CDATA[https://api.github.com/repos/CycloneDX/cyclonedx-php-library/zipball/6819a286e7b8e8514e511dd1bbd9a88d3e45bf8f]]></url>
+            <comment><![CDATA[dist reference: 6819a286e7b8e8514e511dd1bbd9a88d3e45bf8f]]></comment>
+          </reference>
+          <reference type="vcs">
+            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-library.git]]></url>
+            <comment><![CDATA[source reference: 6819a286e7b8e8514e511dd1bbd9a88d3e45bf8f]]></comment>
+          </reference>
+          <reference type="website">
+            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-library/#readme]]></url>
+            <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+          </reference>
+          <reference type="issue-tracker">
+            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-library/issues]]></url>
+            <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+          </reference>
+          <reference type="vcs">
+            <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-library/]]></url>
+            <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+          </reference>
+        </externalReferences>
+      </tool>
+    </tools>
+    <component type="application" bom-ref="tvlooy/vuln-mollie-dev-main">
+      <group><![CDATA[tvlooy]]></group>
+      <name><![CDATA[vuln-mollie]]></name>
+      <version><![CDATA[dev-main]]></version>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/tvlooy/vuln-mollie@dev-main]]></purl>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[5d781f1af7daf7176acea10adb1c55fc536c0b26]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[5d781f1af7daf7176acea10adb1c55fc536c0b26]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[project]]></property>
+      </properties>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="asm89/stack-cors-2.1.1.0">
+      <author><![CDATA[Alexander]]></author>
+      <group><![CDATA[asm89]]></group>
+      <name><![CDATA[stack-cors]]></name>
+      <version><![CDATA[v2.1.1]]></version>
+      <description><![CDATA[Cross-origin resource sharing library and stack middleware]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/asm89/stack-cors@v2.1.1]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/asm89/stack-cors/zipball/73e5b88775c64ccc0b84fb60836b30dc9d92ac4a]]></url>
+          <comment><![CDATA[dist reference: 73e5b88775c64ccc0b84fb60836b30dc9d92ac4a]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/asm89/stack-cors.git]]></url>
+          <comment><![CDATA[source reference: 73e5b88775c64ccc0b84fb60836b30dc9d92ac4a]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/asm89/stack-cors]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/asm89/stack-cors/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/asm89/stack-cors/tree/v2.1.1]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[73e5b88775c64ccc0b84fb60836b30dc9d92ac4a]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[73e5b88775c64ccc0b84fb60836b30dc9d92ac4a]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="composer/ca-bundle-1.3.7.0">
+      <author><![CDATA[Jordi Boggiano]]></author>
+      <group><![CDATA[composer]]></group>
+      <name><![CDATA[ca-bundle]]></name>
+      <version><![CDATA[1.3.7]]></version>
+      <description><![CDATA[Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/composer/ca-bundle@1.3.7]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/composer/ca-bundle/zipball/76e46335014860eec1aa5a724799a00a2e47cc85]]></url>
+          <comment><![CDATA[dist reference: 76e46335014860eec1aa5a724799a00a2e47cc85]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/composer/ca-bundle.git]]></url>
+          <comment><![CDATA[source reference: 76e46335014860eec1aa5a724799a00a2e47cc85]]></comment>
+        </reference>
+        <reference type="chat">
+          <url><![CDATA[irc://irc.freenode.org/composer]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.irc']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/composer/ca-bundle/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/composer/ca-bundle/tree/1.3.7]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[76e46335014860eec1aa5a724799a00a2e47cc85]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[76e46335014860eec1aa5a724799a00a2e47cc85]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="composer/semver-3.4.0.0">
+      <author><![CDATA[Nils Adermann, Jordi Boggiano, Rob Bast]]></author>
+      <group><![CDATA[composer]]></group>
+      <name><![CDATA[semver]]></name>
+      <version><![CDATA[3.4.0]]></version>
+      <description><![CDATA[Semver library that offers utilities, version constraint parsing and validation.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/composer/semver@3.4.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/composer/semver/zipball/35e8d0af4486141bc745f23a29cc2091eb624a32]]></url>
+          <comment><![CDATA[dist reference: 35e8d0af4486141bc745f23a29cc2091eb624a32]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/composer/semver.git]]></url>
+          <comment><![CDATA[source reference: 35e8d0af4486141bc745f23a29cc2091eb624a32]]></comment>
+        </reference>
+        <reference type="chat">
+          <url><![CDATA[ircs://irc.libera.chat:6697/composer]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.irc']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/composer/semver/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/composer/semver/tree/3.4.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[35e8d0af4486141bc745f23a29cc2091eb624a32]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[35e8d0af4486141bc745f23a29cc2091eb624a32]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="composer/spdx-licenses-1.5.7.0">
+      <author><![CDATA[Nils Adermann, Jordi Boggiano, Rob Bast]]></author>
+      <group><![CDATA[composer]]></group>
+      <name><![CDATA[spdx-licenses]]></name>
+      <version><![CDATA[1.5.7]]></version>
+      <description><![CDATA[SPDX licenses list and validation library.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/composer/spdx-licenses@1.5.7]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/composer/spdx-licenses/zipball/c848241796da2abf65837d51dce1fae55a960149]]></url>
+          <comment><![CDATA[dist reference: c848241796da2abf65837d51dce1fae55a960149]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/composer/spdx-licenses.git]]></url>
+          <comment><![CDATA[source reference: c848241796da2abf65837d51dce1fae55a960149]]></comment>
+        </reference>
+        <reference type="chat">
+          <url><![CDATA[irc://irc.freenode.org/composer]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.irc']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/composer/spdx-licenses/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/composer/spdx-licenses/tree/1.5.7]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[c848241796da2abf65837d51dce1fae55a960149]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[c848241796da2abf65837d51dce1fae55a960149]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+        <property name="cdx:composer:package:isDevRequirement"><![CDATA[true]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="cyclonedx/cyclonedx-library-3.0.1.0">
+      <author><![CDATA[Jan Kowalleck]]></author>
+      <group><![CDATA[cyclonedx]]></group>
+      <name><![CDATA[cyclonedx-library]]></name>
+      <version><![CDATA[v3.0.1]]></version>
+      <description><![CDATA[Work with Bill-of-Materials (BOM) in CycloneDX format.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[Apache-2.0]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/cyclonedx/cyclonedx-library@v3.0.1]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/CycloneDX/cyclonedx-php-library/zipball/6819a286e7b8e8514e511dd1bbd9a88d3e45bf8f]]></url>
+          <comment><![CDATA[dist reference: 6819a286e7b8e8514e511dd1bbd9a88d3e45bf8f]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-library.git]]></url>
+          <comment><![CDATA[source reference: 6819a286e7b8e8514e511dd1bbd9a88d3e45bf8f]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-library/#readme]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-library/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-library/]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[6819a286e7b8e8514e511dd1bbd9a88d3e45bf8f]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[6819a286e7b8e8514e511dd1bbd9a88d3e45bf8f]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+        <property name="cdx:composer:package:isDevRequirement"><![CDATA[true]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="cyclonedx/cyclonedx-php-composer-4.2.2.0">
+      <author><![CDATA[Jan Kowalleck]]></author>
+      <group><![CDATA[cyclonedx]]></group>
+      <name><![CDATA[cyclonedx-php-composer]]></name>
+      <version><![CDATA[v4.2.2]]></version>
+      <description><![CDATA[Creates CycloneDX Software Bill-of-Materials (SBOM) from PHP Composer projects]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[Apache-2.0]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/cyclonedx/cyclonedx-php-composer@v4.2.2]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/CycloneDX/cyclonedx-php-composer/zipball/1223dabb7fea864b218a3fbd32c0fb132e880559]]></url>
+          <comment><![CDATA[dist reference: 1223dabb7fea864b218a3fbd32c0fb132e880559]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer.git]]></url>
+          <comment><![CDATA[source reference: 1223dabb7fea864b218a3fbd32c0fb132e880559]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/#readme]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/CycloneDX/cyclonedx-php-composer/]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[1223dabb7fea864b218a3fbd32c0fb132e880559]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[1223dabb7fea864b218a3fbd32c0fb132e880559]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[composer-plugin]]></property>
+        <property name="cdx:composer:package:isDevRequirement"><![CDATA[true]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="doctrine/annotations-1.14.3.0">
+      <author><![CDATA[Guilherme Blanco, Roman Borschel, Benjamin Eberlei, Jonathan Wage, Johannes Schmitt]]></author>
+      <group><![CDATA[doctrine]]></group>
+      <name><![CDATA[annotations]]></name>
+      <version><![CDATA[1.14.3]]></version>
+      <description><![CDATA[Docblock Annotations Parser]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/doctrine/annotations@1.14.3]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/doctrine/annotations/zipball/fb0d71a7393298a7b232cbf4c8b1f73f3ec3d5af]]></url>
+          <comment><![CDATA[dist reference: fb0d71a7393298a7b232cbf4c8b1f73f3ec3d5af]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/doctrine/annotations.git]]></url>
+          <comment><![CDATA[source reference: fb0d71a7393298a7b232cbf4c8b1f73f3ec3d5af]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://www.doctrine-project.org/projects/annotations.html]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/doctrine/annotations/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/doctrine/annotations/tree/1.14.3]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[fb0d71a7393298a7b232cbf4c8b1f73f3ec3d5af]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[fb0d71a7393298a7b232cbf4c8b1f73f3ec3d5af]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="doctrine/deprecations-1.1.2.0">
+      <group><![CDATA[doctrine]]></group>
+      <name><![CDATA[deprecations]]></name>
+      <version><![CDATA[1.1.2]]></version>
+      <description><![CDATA[A small layer on top of trigger_error(E_USER_DEPRECATED) or PSR-3 logging with options to disable all deprecations or selectively for packages.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/doctrine/deprecations@1.1.2]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/doctrine/deprecations/zipball/4f2d4f2836e7ec4e7a8625e75c6aa916004db931]]></url>
+          <comment><![CDATA[dist reference: 4f2d4f2836e7ec4e7a8625e75c6aa916004db931]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/doctrine/deprecations.git]]></url>
+          <comment><![CDATA[source reference: 4f2d4f2836e7ec4e7a8625e75c6aa916004db931]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://www.doctrine-project.org/]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/doctrine/deprecations/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/doctrine/deprecations/tree/1.1.2]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[4f2d4f2836e7ec4e7a8625e75c6aa916004db931]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[4f2d4f2836e7ec4e7a8625e75c6aa916004db931]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="doctrine/lexer-2.1.0.0">
+      <author><![CDATA[Guilherme Blanco, Roman Borschel, Johannes Schmitt]]></author>
+      <group><![CDATA[doctrine]]></group>
+      <name><![CDATA[lexer]]></name>
+      <version><![CDATA[2.1.0]]></version>
+      <description><![CDATA[PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/doctrine/lexer@2.1.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/doctrine/lexer/zipball/39ab8fcf5a51ce4b85ca97c7a7d033eb12831124]]></url>
+          <comment><![CDATA[dist reference: 39ab8fcf5a51ce4b85ca97c7a7d033eb12831124]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/doctrine/lexer.git]]></url>
+          <comment><![CDATA[source reference: 39ab8fcf5a51ce4b85ca97c7a7d033eb12831124]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://www.doctrine-project.org/projects/lexer.html]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/doctrine/lexer/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/doctrine/lexer/tree/2.1.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[39ab8fcf5a51ce4b85ca97c7a7d033eb12831124]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[39ab8fcf5a51ce4b85ca97c7a7d033eb12831124]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="dompdf/dompdf-0.8.4.0">
+      <author><![CDATA[Fabien Ménager, Brian Sweeney, Gabriel Bull]]></author>
+      <group><![CDATA[dompdf]]></group>
+      <name><![CDATA[dompdf]]></name>
+      <version><![CDATA[v0.8.4]]></version>
+      <description><![CDATA[DOMPDF is a CSS 2.1 compliant HTML to PDF converter]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[LGPL-2.1]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/dompdf/dompdf@v0.8.4]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/dompdf/dompdf/zipball/8f49b3b01693f51037dd50da81090beba1b5c005]]></url>
+          <comment><![CDATA[dist reference: 8f49b3b01693f51037dd50da81090beba1b5c005]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/dompdf/dompdf.git]]></url>
+          <comment><![CDATA[source reference: 8f49b3b01693f51037dd50da81090beba1b5c005]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/dompdf/dompdf]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/dompdf/dompdf/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/dompdf/dompdf/tree/master]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[8f49b3b01693f51037dd50da81090beba1b5c005]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[8f49b3b01693f51037dd50da81090beba1b5c005]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="drupal/core-10.1.6.0">
+      <group><![CDATA[drupal]]></group>
+      <name><![CDATA[core]]></name>
+      <version><![CDATA[10.1.6]]></version>
+      <description><![CDATA[Drupal is an open source content management platform powering millions of websites and applications.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[GPL-2.0-or-later]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/drupal/core@10.1.6]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/drupal/core/zipball/33695caf467e3e1e8c75d42215df57bee31be9ec]]></url>
+          <comment><![CDATA[dist reference: 33695caf467e3e1e8c75d42215df57bee31be9ec]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/drupal/core.git]]></url>
+          <comment><![CDATA[source reference: 33695caf467e3e1e8c75d42215df57bee31be9ec]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/drupal/core/tree/10.1.6]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[33695caf467e3e1e8c75d42215df57bee31be9ec]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[33695caf467e3e1e8c75d42215df57bee31be9ec]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[drupal-core]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="drupal/mollie-2.2.0.0">
+      <author><![CDATA[Rico van de Vin (ricovandevin)]]></author>
+      <group><![CDATA[drupal]]></group>
+      <name><![CDATA[mollie]]></name>
+      <version><![CDATA[2.2.0]]></version>
+      <description><![CDATA[Enables online payments in Drupal through Mollie.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[GPL-2.0-or-later]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/drupal/mollie@2.2.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://ftp.drupal.org/files/projects/mollie-2.2.0.zip]]></url>
+          <comment><![CDATA[dist reference: 2.2.0]]></comment>
+          <hashes>
+            <hash alg="SHA-1"><![CDATA[5edfe868a1c9c66b20dbd3554a84206f374666b2]]></hash>
+          </hashes>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://git.drupalcode.org/project/mollie.git]]></url>
+          <comment><![CDATA[source reference: 2.2.0]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://www.drupal.org/project/mollie]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://cgit.drupalcode.org/mollie]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://www.drupal.org/project/issues/mollie]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[2.2.0]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[2.2.0]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[drupal-module]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="egulias/email-validator-4.0.2.0">
+      <author><![CDATA[Eduardo Gulias Davis]]></author>
+      <group><![CDATA[egulias]]></group>
+      <name><![CDATA[email-validator]]></name>
+      <version><![CDATA[4.0.2]]></version>
+      <description><![CDATA[A library for validating emails against several RFCs]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/egulias/email-validator@4.0.2]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/egulias/EmailValidator/zipball/ebaaf5be6c0286928352e054f2d5125608e5405e]]></url>
+          <comment><![CDATA[dist reference: ebaaf5be6c0286928352e054f2d5125608e5405e]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/egulias/EmailValidator.git]]></url>
+          <comment><![CDATA[source reference: ebaaf5be6c0286928352e054f2d5125608e5405e]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/egulias/EmailValidator]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/egulias/EmailValidator/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/egulias/EmailValidator/tree/4.0.2]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[ebaaf5be6c0286928352e054f2d5125608e5405e]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[ebaaf5be6c0286928352e054f2d5125608e5405e]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="guzzlehttp/guzzle-7.8.0.0">
+      <author><![CDATA[Graham Campbell, Michael Dowling, Jeremy Lindblom, George Mponos, Tobias Nyholm, Márk Sági-Kazár, Tobias Schultze]]></author>
+      <group><![CDATA[guzzlehttp]]></group>
+      <name><![CDATA[guzzle]]></name>
+      <version><![CDATA[7.8.0]]></version>
+      <description><![CDATA[Guzzle is a PHP HTTP client library]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/guzzlehttp/guzzle@7.8.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/guzzle/guzzle/zipball/1110f66a6530a40fe7aea0378fe608ee2b2248f9]]></url>
+          <comment><![CDATA[dist reference: 1110f66a6530a40fe7aea0378fe608ee2b2248f9]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/guzzle/guzzle.git]]></url>
+          <comment><![CDATA[source reference: 1110f66a6530a40fe7aea0378fe608ee2b2248f9]]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/guzzle/guzzle/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/guzzle/guzzle/tree/7.8.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[1110f66a6530a40fe7aea0378fe608ee2b2248f9]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[1110f66a6530a40fe7aea0378fe608ee2b2248f9]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="guzzlehttp/promises-2.0.1.0">
+      <author><![CDATA[Graham Campbell, Michael Dowling, Tobias Nyholm, Tobias Schultze]]></author>
+      <group><![CDATA[guzzlehttp]]></group>
+      <name><![CDATA[promises]]></name>
+      <version><![CDATA[2.0.1]]></version>
+      <description><![CDATA[Guzzle promises library]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/guzzlehttp/promises@2.0.1]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/guzzle/promises/zipball/111166291a0f8130081195ac4556a5587d7f1b5d]]></url>
+          <comment><![CDATA[dist reference: 111166291a0f8130081195ac4556a5587d7f1b5d]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/guzzle/promises.git]]></url>
+          <comment><![CDATA[source reference: 111166291a0f8130081195ac4556a5587d7f1b5d]]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/guzzle/promises/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/guzzle/promises/tree/2.0.1]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[111166291a0f8130081195ac4556a5587d7f1b5d]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[111166291a0f8130081195ac4556a5587d7f1b5d]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="guzzlehttp/psr7-2.6.1.0">
+      <author><![CDATA[Graham Campbell, Michael Dowling, George Mponos, Tobias Nyholm, Márk Sági-Kazár, Tobias Schultze, Márk Sági-Kazár]]></author>
+      <group><![CDATA[guzzlehttp]]></group>
+      <name><![CDATA[psr7]]></name>
+      <version><![CDATA[2.6.1]]></version>
+      <description><![CDATA[PSR-7 message implementation that also provides common utility methods]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/guzzlehttp/psr7@2.6.1]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/guzzle/psr7/zipball/be45764272e8873c72dbe3d2edcfdfcc3bc9f727]]></url>
+          <comment><![CDATA[dist reference: be45764272e8873c72dbe3d2edcfdfcc3bc9f727]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/guzzle/psr7.git]]></url>
+          <comment><![CDATA[source reference: be45764272e8873c72dbe3d2edcfdfcc3bc9f727]]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/guzzle/psr7/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/guzzle/psr7/tree/2.6.1]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[be45764272e8873c72dbe3d2edcfdfcc3bc9f727]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[be45764272e8873c72dbe3d2edcfdfcc3bc9f727]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="masterminds/html5-2.8.1.0">
+      <author><![CDATA[Matt Butcher, Matt Farina, Asmir Mustafic]]></author>
+      <group><![CDATA[masterminds]]></group>
+      <name><![CDATA[html5]]></name>
+      <version><![CDATA[2.8.1]]></version>
+      <description><![CDATA[An HTML5 parser and serializer.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/masterminds/html5@2.8.1]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/Masterminds/html5-php/zipball/f47dcf3c70c584de14f21143c55d9939631bc6cf]]></url>
+          <comment><![CDATA[dist reference: f47dcf3c70c584de14f21143c55d9939631bc6cf]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/Masterminds/html5-php.git]]></url>
+          <comment><![CDATA[source reference: f47dcf3c70c584de14f21143c55d9939631bc6cf]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[http://masterminds.github.io/html5-php]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/Masterminds/html5-php/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/Masterminds/html5-php/tree/2.8.1]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[f47dcf3c70c584de14f21143c55d9939631bc6cf]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[f47dcf3c70c584de14f21143c55d9939631bc6cf]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="mck89/peast-1.15.4.0">
+      <author><![CDATA[Marco Marchiò]]></author>
+      <group><![CDATA[mck89]]></group>
+      <name><![CDATA[peast]]></name>
+      <version><![CDATA[v1.15.4]]></version>
+      <description><![CDATA[Peast is PHP library that generates AST for JavaScript code]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[BSD-3-Clause]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/mck89/peast@v1.15.4]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/mck89/peast/zipball/1df4dc28a6b5bb7ab117ab073c1712256e954e18]]></url>
+          <comment><![CDATA[dist reference: 1df4dc28a6b5bb7ab117ab073c1712256e954e18]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/mck89/peast.git]]></url>
+          <comment><![CDATA[source reference: 1df4dc28a6b5bb7ab117ab073c1712256e954e18]]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/mck89/peast/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/mck89/peast/tree/v1.15.4]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[1df4dc28a6b5bb7ab117ab073c1712256e954e18]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[1df4dc28a6b5bb7ab117ab073c1712256e954e18]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="mollie/mollie-api-php-2.63.0.0">
+      <author><![CDATA[Mollie B.V.]]></author>
+      <group><![CDATA[mollie]]></group>
+      <name><![CDATA[mollie-api-php]]></name>
+      <version><![CDATA[v2.63.0]]></version>
+      <description><![CDATA[Mollie API client library for PHP. Mollie is a European Payment Service provider and offers international payment methods such as Mastercard, VISA, American Express and PayPal, and local payment methods such as iDEAL, Bancontact, SOFORT Banking, SEPA direct debit, Belfius Direct Net, KBC Payment Button and various gift cards such as Podiumcadeaukaart and fashioncheque.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[BSD-2-Clause]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/mollie/mollie-api-php@v2.63.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/mollie/mollie-api-php/zipball/642f1b87624bd1535cd198134113e14bc01ba245]]></url>
+          <comment><![CDATA[dist reference: 642f1b87624bd1535cd198134113e14bc01ba245]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/mollie/mollie-api-php.git]]></url>
+          <comment><![CDATA[source reference: 642f1b87624bd1535cd198134113e14bc01ba245]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://www.mollie.com/en/developers]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/mollie/mollie-api-php/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/mollie/mollie-api-php/tree/v2.63.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[642f1b87624bd1535cd198134113e14bc01ba245]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[642f1b87624bd1535cd198134113e14bc01ba245]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="opis/json-schema-2.3.0.0">
+      <author><![CDATA[Sorin Sarca, Marius Sarca]]></author>
+      <group><![CDATA[opis]]></group>
+      <name><![CDATA[json-schema]]></name>
+      <version><![CDATA[2.3.0]]></version>
+      <description><![CDATA[Json Schema Validator for PHP]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[Apache-2.0]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/opis/json-schema@2.3.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/opis/json-schema/zipball/c48df6d7089a45f01e1c82432348f2d5976f9bfb]]></url>
+          <comment><![CDATA[dist reference: c48df6d7089a45f01e1c82432348f2d5976f9bfb]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/opis/json-schema.git]]></url>
+          <comment><![CDATA[source reference: c48df6d7089a45f01e1c82432348f2d5976f9bfb]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://opis.io/json-schema]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/opis/json-schema/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/opis/json-schema/tree/2.3.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[c48df6d7089a45f01e1c82432348f2d5976f9bfb]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[c48df6d7089a45f01e1c82432348f2d5976f9bfb]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+        <property name="cdx:composer:package:isDevRequirement"><![CDATA[true]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="opis/string-2.0.1.0">
+      <author><![CDATA[Marius Sarca, Sorin Sarca]]></author>
+      <group><![CDATA[opis]]></group>
+      <name><![CDATA[string]]></name>
+      <version><![CDATA[2.0.1]]></version>
+      <description><![CDATA[Multibyte strings as objects]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[Apache-2.0]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/opis/string@2.0.1]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/opis/string/zipball/9ebf1a1f873f502f6859d11210b25a4bf5d141e7]]></url>
+          <comment><![CDATA[dist reference: 9ebf1a1f873f502f6859d11210b25a4bf5d141e7]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/opis/string.git]]></url>
+          <comment><![CDATA[source reference: 9ebf1a1f873f502f6859d11210b25a4bf5d141e7]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://opis.io/string]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/opis/string/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/opis/string/tree/2.0.1]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[9ebf1a1f873f502f6859d11210b25a4bf5d141e7]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[9ebf1a1f873f502f6859d11210b25a4bf5d141e7]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+        <property name="cdx:composer:package:isDevRequirement"><![CDATA[true]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="opis/uri-1.1.0.0">
+      <author><![CDATA[Marius Sarca, Sorin Sarca]]></author>
+      <group><![CDATA[opis]]></group>
+      <name><![CDATA[uri]]></name>
+      <version><![CDATA[1.1.0]]></version>
+      <description><![CDATA[Build, parse and validate URIs and URI-templates]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[Apache-2.0]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/opis/uri@1.1.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/opis/uri/zipball/0f3ca49ab1a5e4a6681c286e0b2cc081b93a7d5a]]></url>
+          <comment><![CDATA[dist reference: 0f3ca49ab1a5e4a6681c286e0b2cc081b93a7d5a]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/opis/uri.git]]></url>
+          <comment><![CDATA[source reference: 0f3ca49ab1a5e4a6681c286e0b2cc081b93a7d5a]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://opis.io]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/opis/uri/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/opis/uri/tree/1.1.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[0f3ca49ab1a5e4a6681c286e0b2cc081b93a7d5a]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[0f3ca49ab1a5e4a6681c286e0b2cc081b93a7d5a]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+        <property name="cdx:composer:package:isDevRequirement"><![CDATA[true]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="package-url/packageurl-php-1.0.6.0">
+      <author><![CDATA[Jan Kowalleck]]></author>
+      <group><![CDATA[package-url]]></group>
+      <name><![CDATA[packageurl-php]]></name>
+      <version><![CDATA[1.0.6]]></version>
+      <description><![CDATA[Builder and parser based on the package URL (purl) specification.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/package-url/packageurl-php@1.0.6]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/package-url/packageurl-php/zipball/ba6e2761f48a0599b66209ed1296b689b89b32ec]]></url>
+          <comment><![CDATA[dist reference: ba6e2761f48a0599b66209ed1296b689b89b32ec]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/package-url/packageurl-php.git]]></url>
+          <comment><![CDATA[source reference: ba6e2761f48a0599b66209ed1296b689b89b32ec]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/package-url/packageurl-php#readme]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/package-url/packageurl-php/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/package-url/packageurl-php/tree/1.0.6]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[ba6e2761f48a0599b66209ed1296b689b89b32ec]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[ba6e2761f48a0599b66209ed1296b689b89b32ec]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+        <property name="cdx:composer:package:isDevRequirement"><![CDATA[true]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pear/archive_tar-1.4.14.0">
+      <author><![CDATA[Vincent Blavet, Greg Beaver, Michiel Rook]]></author>
+      <group><![CDATA[pear]]></group>
+      <name><![CDATA[archive_tar]]></name>
+      <version><![CDATA[1.4.14]]></version>
+      <description><![CDATA[Tar file management class with compression support (gzip, bzip2, lzma2)]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[BSD-3-Clause]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/pear/archive_tar@1.4.14]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/pear/Archive_Tar/zipball/4d761c5334c790e45ef3245f0864b8955c562caa]]></url>
+          <comment><![CDATA[dist reference: 4d761c5334c790e45ef3245f0864b8955c562caa]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/pear/Archive_Tar.git]]></url>
+          <comment><![CDATA[source reference: 4d761c5334c790e45ef3245f0864b8955c562caa]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/pear/Archive_Tar]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[http://pear.php.net/bugs/search.php?cmd=display&package_name%5B%5D=Archive_Tar]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/pear/Archive_Tar]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[4d761c5334c790e45ef3245f0864b8955c562caa]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[4d761c5334c790e45ef3245f0864b8955c562caa]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pear/console_getopt-1.4.3.0">
+      <author><![CDATA[Andrei Zmievski, Stig Bakken, Greg Beaver]]></author>
+      <group><![CDATA[pear]]></group>
+      <name><![CDATA[console_getopt]]></name>
+      <version><![CDATA[v1.4.3]]></version>
+      <description><![CDATA[More info available on: http://pear.php.net/package/Console_Getopt]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[BSD-2-Clause]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/pear/console_getopt@v1.4.3]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/pear/Console_Getopt/zipball/a41f8d3e668987609178c7c4a9fe48fecac53fa0]]></url>
+          <comment><![CDATA[dist reference: a41f8d3e668987609178c7c4a9fe48fecac53fa0]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/pear/Console_Getopt.git]]></url>
+          <comment><![CDATA[source reference: a41f8d3e668987609178c7c4a9fe48fecac53fa0]]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[http://pear.php.net/bugs/search.php?cmd=display&package_name%5B%5D=Console_Getopt]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/pear/Console_Getopt]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[a41f8d3e668987609178c7c4a9fe48fecac53fa0]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[a41f8d3e668987609178c7c4a9fe48fecac53fa0]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pear/pear-core-minimal-1.10.13.0">
+      <author><![CDATA[Christian Weiske]]></author>
+      <group><![CDATA[pear]]></group>
+      <name><![CDATA[pear-core-minimal]]></name>
+      <version><![CDATA[v1.10.13]]></version>
+      <description><![CDATA[Minimal set of PEAR core files to be used as composer dependency]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[BSD-3-Clause]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/pear/pear-core-minimal@v1.10.13]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/pear/pear-core-minimal/zipball/aed862e95fd286c53cc546734868dc38ff4b5b1d]]></url>
+          <comment><![CDATA[dist reference: aed862e95fd286c53cc546734868dc38ff4b5b1d]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/pear/pear-core-minimal.git]]></url>
+          <comment><![CDATA[source reference: aed862e95fd286c53cc546734868dc38ff4b5b1d]]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[http://pear.php.net/bugs/search.php?cmd=display&package_name%5B%5D=PEAR]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/pear/pear-core-minimal]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[aed862e95fd286c53cc546734868dc38ff4b5b1d]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[aed862e95fd286c53cc546734868dc38ff4b5b1d]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pear/pear_exception-1.0.2.0">
+      <author><![CDATA[Helgi Thormar, Greg Beaver]]></author>
+      <group><![CDATA[pear]]></group>
+      <name><![CDATA[pear_exception]]></name>
+      <version><![CDATA[v1.0.2]]></version>
+      <description><![CDATA[The PEAR Exception base class.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[BSD-2-Clause]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/pear/pear_exception@v1.0.2]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/pear/PEAR_Exception/zipball/b14fbe2ddb0b9f94f5b24cf08783d599f776fff0]]></url>
+          <comment><![CDATA[dist reference: b14fbe2ddb0b9f94f5b24cf08783d599f776fff0]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/pear/PEAR_Exception.git]]></url>
+          <comment><![CDATA[source reference: b14fbe2ddb0b9f94f5b24cf08783d599f776fff0]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/pear/PEAR_Exception]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[http://pear.php.net/bugs/search.php?cmd=display&package_name%5B%5D=PEAR_Exception]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/pear/PEAR_Exception]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[b14fbe2ddb0b9f94f5b24cf08783d599f776fff0]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[b14fbe2ddb0b9f94f5b24cf08783d599f776fff0]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[class]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="phenx/php-font-lib-0.5.4.0">
+      <author><![CDATA[Fabien Ménager]]></author>
+      <group><![CDATA[phenx]]></group>
+      <name><![CDATA[php-font-lib]]></name>
+      <version><![CDATA[0.5.4]]></version>
+      <description><![CDATA[A library to read, parse, export and make subsets of different types of font files.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[LGPL-3.0]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/phenx/php-font-lib@0.5.4]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/dompdf/php-font-lib/zipball/dd448ad1ce34c63d09baccd05415e361300c35b4]]></url>
+          <comment><![CDATA[dist reference: dd448ad1ce34c63d09baccd05415e361300c35b4]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/dompdf/php-font-lib.git]]></url>
+          <comment><![CDATA[source reference: dd448ad1ce34c63d09baccd05415e361300c35b4]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/PhenX/php-font-lib]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/dompdf/php-font-lib/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/dompdf/php-font-lib/tree/0.5.4]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[dd448ad1ce34c63d09baccd05415e361300c35b4]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[dd448ad1ce34c63d09baccd05415e361300c35b4]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="phenx/php-svg-lib-0.3.4.0">
+      <author><![CDATA[Fabien Ménager]]></author>
+      <group><![CDATA[phenx]]></group>
+      <name><![CDATA[php-svg-lib]]></name>
+      <version><![CDATA[0.3.4]]></version>
+      <description><![CDATA[A library to read, parse and export to PDF SVG files.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[LGPL-3.0]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/phenx/php-svg-lib@0.3.4]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/PhenX/php-svg-lib/zipball/f627771eb854aa7f45f80add0f23c6c4d67ea0f2]]></url>
+          <comment><![CDATA[dist reference: f627771eb854aa7f45f80add0f23c6c4d67ea0f2]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/PhenX/php-svg-lib.git]]></url>
+          <comment><![CDATA[source reference: f627771eb854aa7f45f80add0f23c6c4d67ea0f2]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/PhenX/php-svg-lib]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/PhenX/php-svg-lib/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/PhenX/php-svg-lib/tree/0.3.4]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[f627771eb854aa7f45f80add0f23c6c4d67ea0f2]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[f627771eb854aa7f45f80add0f23c6c4d67ea0f2]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="psr/cache-3.0.0.0">
+      <author><![CDATA[PHP-FIG]]></author>
+      <group><![CDATA[psr]]></group>
+      <name><![CDATA[cache]]></name>
+      <version><![CDATA[3.0.0]]></version>
+      <description><![CDATA[Common interface for caching libraries]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/psr/cache@3.0.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/php-fig/cache/zipball/aa5030cfa5405eccfdcb1083ce040c2cb8d253bf]]></url>
+          <comment><![CDATA[dist reference: aa5030cfa5405eccfdcb1083ce040c2cb8d253bf]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/cache.git]]></url>
+          <comment><![CDATA[source reference: aa5030cfa5405eccfdcb1083ce040c2cb8d253bf]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/cache/tree/3.0.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[aa5030cfa5405eccfdcb1083ce040c2cb8d253bf]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[aa5030cfa5405eccfdcb1083ce040c2cb8d253bf]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="psr/container-2.0.2.0">
+      <author><![CDATA[PHP-FIG]]></author>
+      <group><![CDATA[psr]]></group>
+      <name><![CDATA[container]]></name>
+      <version><![CDATA[2.0.2]]></version>
+      <description><![CDATA[Common Container Interface (PHP FIG PSR-11)]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/psr/container@2.0.2]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963]]></url>
+          <comment><![CDATA[dist reference: c71ecc56dfe541dbd90c5360474fbc405f8d5963]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/container.git]]></url>
+          <comment><![CDATA[source reference: c71ecc56dfe541dbd90c5360474fbc405f8d5963]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/php-fig/container]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/php-fig/container/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/container/tree/2.0.2]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[c71ecc56dfe541dbd90c5360474fbc405f8d5963]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[c71ecc56dfe541dbd90c5360474fbc405f8d5963]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="psr/event-dispatcher-1.0.0.0">
+      <author><![CDATA[PHP-FIG]]></author>
+      <group><![CDATA[psr]]></group>
+      <name><![CDATA[event-dispatcher]]></name>
+      <version><![CDATA[1.0.0]]></version>
+      <description><![CDATA[Standard interfaces for event handling.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/psr/event-dispatcher@1.0.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0]]></url>
+          <comment><![CDATA[dist reference: dbefd12671e8a14ec7f180cab83036ed26714bb0]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/event-dispatcher.git]]></url>
+          <comment><![CDATA[source reference: dbefd12671e8a14ec7f180cab83036ed26714bb0]]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/php-fig/event-dispatcher/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/event-dispatcher/tree/1.0.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[dbefd12671e8a14ec7f180cab83036ed26714bb0]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[dbefd12671e8a14ec7f180cab83036ed26714bb0]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="psr/http-client-1.0.3.0">
+      <author><![CDATA[PHP-FIG]]></author>
+      <group><![CDATA[psr]]></group>
+      <name><![CDATA[http-client]]></name>
+      <version><![CDATA[1.0.3]]></version>
+      <description><![CDATA[Common interface for HTTP clients]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/psr/http-client@1.0.3]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/php-fig/http-client/zipball/bb5906edc1c324c9a05aa0873d40117941e5fa90]]></url>
+          <comment><![CDATA[dist reference: bb5906edc1c324c9a05aa0873d40117941e5fa90]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/http-client.git]]></url>
+          <comment><![CDATA[source reference: bb5906edc1c324c9a05aa0873d40117941e5fa90]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/php-fig/http-client]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/http-client]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[bb5906edc1c324c9a05aa0873d40117941e5fa90]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[bb5906edc1c324c9a05aa0873d40117941e5fa90]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="psr/http-factory-1.0.2.0">
+      <author><![CDATA[PHP-FIG]]></author>
+      <group><![CDATA[psr]]></group>
+      <name><![CDATA[http-factory]]></name>
+      <version><![CDATA[1.0.2]]></version>
+      <description><![CDATA[Common interfaces for PSR-7 HTTP message factories]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/psr/http-factory@1.0.2]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/php-fig/http-factory/zipball/e616d01114759c4c489f93b099585439f795fe35]]></url>
+          <comment><![CDATA[dist reference: e616d01114759c4c489f93b099585439f795fe35]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/http-factory.git]]></url>
+          <comment><![CDATA[source reference: e616d01114759c4c489f93b099585439f795fe35]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/http-factory/tree/1.0.2]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[e616d01114759c4c489f93b099585439f795fe35]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[e616d01114759c4c489f93b099585439f795fe35]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="psr/http-message-2.0.0.0">
+      <author><![CDATA[PHP-FIG]]></author>
+      <group><![CDATA[psr]]></group>
+      <name><![CDATA[http-message]]></name>
+      <version><![CDATA[2.0]]></version>
+      <description><![CDATA[Common interface for HTTP messages]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/psr/http-message@2.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/php-fig/http-message/zipball/402d35bcb92c70c026d1a6a9883f06b2ead23d71]]></url>
+          <comment><![CDATA[dist reference: 402d35bcb92c70c026d1a6a9883f06b2ead23d71]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/http-message.git]]></url>
+          <comment><![CDATA[source reference: 402d35bcb92c70c026d1a6a9883f06b2ead23d71]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/php-fig/http-message]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/http-message/tree/2.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[402d35bcb92c70c026d1a6a9883f06b2ead23d71]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[402d35bcb92c70c026d1a6a9883f06b2ead23d71]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="psr/log-3.0.0.0">
+      <author><![CDATA[PHP-FIG]]></author>
+      <group><![CDATA[psr]]></group>
+      <name><![CDATA[log]]></name>
+      <version><![CDATA[3.0.0]]></version>
+      <description><![CDATA[Common interface for logging libraries]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/psr/log@3.0.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001]]></url>
+          <comment><![CDATA[dist reference: fe5ea303b0887d5caefd3d431c3e61ad47037001]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/log.git]]></url>
+          <comment><![CDATA[source reference: fe5ea303b0887d5caefd3d431c3e61ad47037001]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/php-fig/log]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/php-fig/log/tree/3.0.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[fe5ea303b0887d5caefd3d431c3e61ad47037001]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[fe5ea303b0887d5caefd3d431c3e61ad47037001]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="ralouphie/getallheaders-3.0.3.0">
+      <author><![CDATA[Ralph Khattar]]></author>
+      <group><![CDATA[ralouphie]]></group>
+      <name><![CDATA[getallheaders]]></name>
+      <version><![CDATA[3.0.3]]></version>
+      <description><![CDATA[A polyfill for getallheaders.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/ralouphie/getallheaders@3.0.3]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822]]></url>
+          <comment><![CDATA[dist reference: 120b605dfeb996808c31b6477290a714d356e822]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/ralouphie/getallheaders.git]]></url>
+          <comment><![CDATA[source reference: 120b605dfeb996808c31b6477290a714d356e822]]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/ralouphie/getallheaders/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/ralouphie/getallheaders/tree/develop]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[120b605dfeb996808c31b6477290a714d356e822]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[120b605dfeb996808c31b6477290a714d356e822]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="sabberworm/php-css-parser-8.4.0.0">
+      <author><![CDATA[Raphael Schweikert]]></author>
+      <group><![CDATA[sabberworm]]></group>
+      <name><![CDATA[php-css-parser]]></name>
+      <version><![CDATA[8.4.0]]></version>
+      <description><![CDATA[Parser for CSS Files written in PHP]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/sabberworm/php-css-parser@8.4.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/e41d2140031d533348b2192a83f02d8dd8a71d30]]></url>
+          <comment><![CDATA[dist reference: e41d2140031d533348b2192a83f02d8dd8a71d30]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/sabberworm/PHP-CSS-Parser.git]]></url>
+          <comment><![CDATA[source reference: e41d2140031d533348b2192a83f02d8dd8a71d30]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://www.sabberworm.com/blog/2010/6/10/php-css-parser]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/sabberworm/PHP-CSS-Parser/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/sabberworm/PHP-CSS-Parser/tree/8.4.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[e41d2140031d533348b2192a83f02d8dd8a71d30]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[e41d2140031d533348b2192a83f02d8dd8a71d30]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="sebastian/diff-4.0.5.0">
+      <author><![CDATA[Sebastian Bergmann, Kore Nordmann]]></author>
+      <group><![CDATA[sebastian]]></group>
+      <name><![CDATA[diff]]></name>
+      <version><![CDATA[4.0.5]]></version>
+      <description><![CDATA[Diff implementation]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[BSD-3-Clause]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/sebastian/diff@4.0.5]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/sebastianbergmann/diff/zipball/74be17022044ebaaecfdf0c5cd504fc9cd5a7131]]></url>
+          <comment><![CDATA[dist reference: 74be17022044ebaaecfdf0c5cd504fc9cd5a7131]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/sebastianbergmann/diff.git]]></url>
+          <comment><![CDATA[source reference: 74be17022044ebaaecfdf0c5cd504fc9cd5a7131]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://github.com/sebastianbergmann/diff]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/sebastianbergmann/diff/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/sebastianbergmann/diff/tree/4.0.5]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[74be17022044ebaaecfdf0c5cd504fc9cd5a7131]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[74be17022044ebaaecfdf0c5cd504fc9cd5a7131]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/console-6.3.8.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[console]]></name>
+      <version><![CDATA[v6.3.8]]></version>
+      <description><![CDATA[Eases the creation of beautiful and testable command line interfaces]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/console@v6.3.8]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/console/zipball/0d14a9f6d04d4ac38a8cea1171f4554e325dae92]]></url>
+          <comment><![CDATA[dist reference: 0d14a9f6d04d4ac38a8cea1171f4554e325dae92]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/console.git]]></url>
+          <comment><![CDATA[source reference: 0d14a9f6d04d4ac38a8cea1171f4554e325dae92]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/console/tree/v6.3.8]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[0d14a9f6d04d4ac38a8cea1171f4554e325dae92]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[0d14a9f6d04d4ac38a8cea1171f4554e325dae92]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/dependency-injection-6.3.8.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[dependency-injection]]></name>
+      <version><![CDATA[v6.3.8]]></version>
+      <description><![CDATA[Allows you to standardize and centralize the way objects are constructed in your application]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/dependency-injection@v6.3.8]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/dependency-injection/zipball/1f30f545c4151f611148fc19e28d54d39e0a00bc]]></url>
+          <comment><![CDATA[dist reference: 1f30f545c4151f611148fc19e28d54d39e0a00bc]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/dependency-injection.git]]></url>
+          <comment><![CDATA[source reference: 1f30f545c4151f611148fc19e28d54d39e0a00bc]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/dependency-injection/tree/v6.3.8]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[1f30f545c4151f611148fc19e28d54d39e0a00bc]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[1f30f545c4151f611148fc19e28d54d39e0a00bc]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/deprecation-contracts-3.4.0.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[deprecation-contracts]]></name>
+      <version><![CDATA[v3.4.0]]></version>
+      <description><![CDATA[A generic function and convention to trigger deprecation notices]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/deprecation-contracts@v3.4.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/deprecation-contracts/zipball/7c3aff79d10325257a001fcf92d991f24fc967cf]]></url>
+          <comment><![CDATA[dist reference: 7c3aff79d10325257a001fcf92d991f24fc967cf]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/deprecation-contracts.git]]></url>
+          <comment><![CDATA[source reference: 7c3aff79d10325257a001fcf92d991f24fc967cf]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/deprecation-contracts/tree/v3.4.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[7c3aff79d10325257a001fcf92d991f24fc967cf]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[7c3aff79d10325257a001fcf92d991f24fc967cf]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/error-handler-6.3.5.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[error-handler]]></name>
+      <version><![CDATA[v6.3.5]]></version>
+      <description><![CDATA[Provides tools to manage errors and ease debugging PHP code]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/error-handler@v6.3.5]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/error-handler/zipball/1f69476b64fb47105c06beef757766c376b548c4]]></url>
+          <comment><![CDATA[dist reference: 1f69476b64fb47105c06beef757766c376b548c4]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/error-handler.git]]></url>
+          <comment><![CDATA[source reference: 1f69476b64fb47105c06beef757766c376b548c4]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/error-handler/tree/v6.3.5]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[1f69476b64fb47105c06beef757766c376b548c4]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[1f69476b64fb47105c06beef757766c376b548c4]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/event-dispatcher-6.3.2.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[event-dispatcher]]></name>
+      <version><![CDATA[v6.3.2]]></version>
+      <description><![CDATA[Provides tools that allow your application components to communicate with each other by dispatching events and listening to them]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/event-dispatcher@v6.3.2]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/event-dispatcher/zipball/adb01fe097a4ee930db9258a3cc906b5beb5cf2e]]></url>
+          <comment><![CDATA[dist reference: adb01fe097a4ee930db9258a3cc906b5beb5cf2e]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/event-dispatcher.git]]></url>
+          <comment><![CDATA[source reference: adb01fe097a4ee930db9258a3cc906b5beb5cf2e]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/event-dispatcher/tree/v6.3.2]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[adb01fe097a4ee930db9258a3cc906b5beb5cf2e]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[adb01fe097a4ee930db9258a3cc906b5beb5cf2e]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/event-dispatcher-contracts-3.4.0.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[event-dispatcher-contracts]]></name>
+      <version><![CDATA[v3.4.0]]></version>
+      <description><![CDATA[Generic abstractions related to dispatching event]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/event-dispatcher-contracts@v3.4.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/a76aed96a42d2b521153fb382d418e30d18b59df]]></url>
+          <comment><![CDATA[dist reference: a76aed96a42d2b521153fb382d418e30d18b59df]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/event-dispatcher-contracts.git]]></url>
+          <comment><![CDATA[source reference: a76aed96a42d2b521153fb382d418e30d18b59df]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/event-dispatcher-contracts/tree/v3.4.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[a76aed96a42d2b521153fb382d418e30d18b59df]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[a76aed96a42d2b521153fb382d418e30d18b59df]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/http-foundation-6.3.8.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[http-foundation]]></name>
+      <version><![CDATA[v6.3.8]]></version>
+      <description><![CDATA[Defines an object-oriented layer for the HTTP specification]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/http-foundation@v6.3.8]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/http-foundation/zipball/ce332676de1912c4389222987193c3ef38033df6]]></url>
+          <comment><![CDATA[dist reference: ce332676de1912c4389222987193c3ef38033df6]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/http-foundation.git]]></url>
+          <comment><![CDATA[source reference: ce332676de1912c4389222987193c3ef38033df6]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/http-foundation/tree/v6.3.8]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[ce332676de1912c4389222987193c3ef38033df6]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[ce332676de1912c4389222987193c3ef38033df6]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/http-kernel-6.3.8.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[http-kernel]]></name>
+      <version><![CDATA[v6.3.8]]></version>
+      <description><![CDATA[Provides a structured process for converting a Request into a Response]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/http-kernel@v6.3.8]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/http-kernel/zipball/929202375ccf44a309c34aeca8305408442ebcc1]]></url>
+          <comment><![CDATA[dist reference: 929202375ccf44a309c34aeca8305408442ebcc1]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/http-kernel.git]]></url>
+          <comment><![CDATA[source reference: 929202375ccf44a309c34aeca8305408442ebcc1]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/http-kernel/tree/v6.3.8]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[929202375ccf44a309c34aeca8305408442ebcc1]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[929202375ccf44a309c34aeca8305408442ebcc1]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/mime-6.3.5.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[mime]]></name>
+      <version><![CDATA[v6.3.5]]></version>
+      <description><![CDATA[Allows manipulating MIME messages]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/mime@v6.3.5]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/mime/zipball/d5179eedf1cb2946dbd760475ebf05c251ef6a6e]]></url>
+          <comment><![CDATA[dist reference: d5179eedf1cb2946dbd760475ebf05c251ef6a6e]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/mime.git]]></url>
+          <comment><![CDATA[source reference: d5179eedf1cb2946dbd760475ebf05c251ef6a6e]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/mime/tree/v6.3.5]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[d5179eedf1cb2946dbd760475ebf05c251ef6a6e]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[d5179eedf1cb2946dbd760475ebf05c251ef6a6e]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/polyfill-ctype-1.28.0.0">
+      <author><![CDATA[Gert de Pagter, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[polyfill-ctype]]></name>
+      <version><![CDATA[v1.28.0]]></version>
+      <description><![CDATA[Symfony polyfill for ctype functions]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/polyfill-ctype@v1.28.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/polyfill-ctype/zipball/ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb]]></url>
+          <comment><![CDATA[dist reference: ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-ctype.git]]></url>
+          <comment><![CDATA[source reference: ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-ctype/tree/v1.28.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/polyfill-iconv-1.28.0.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[polyfill-iconv]]></name>
+      <version><![CDATA[v1.28.0]]></version>
+      <description><![CDATA[Symfony polyfill for the Iconv extension]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/polyfill-iconv@v1.28.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/polyfill-iconv/zipball/6de50471469b8c9afc38164452ab2b6170ee71c1]]></url>
+          <comment><![CDATA[dist reference: 6de50471469b8c9afc38164452ab2b6170ee71c1]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-iconv.git]]></url>
+          <comment><![CDATA[source reference: 6de50471469b8c9afc38164452ab2b6170ee71c1]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-iconv/tree/v1.28.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[6de50471469b8c9afc38164452ab2b6170ee71c1]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[6de50471469b8c9afc38164452ab2b6170ee71c1]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/polyfill-intl-grapheme-1.28.0.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[polyfill-intl-grapheme]]></name>
+      <version><![CDATA[v1.28.0]]></version>
+      <description><![CDATA[Symfony polyfill for intl's grapheme_* functions]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/polyfill-intl-grapheme@v1.28.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/875e90aeea2777b6f135677f618529449334a612]]></url>
+          <comment><![CDATA[dist reference: 875e90aeea2777b6f135677f618529449334a612]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-intl-grapheme.git]]></url>
+          <comment><![CDATA[source reference: 875e90aeea2777b6f135677f618529449334a612]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-intl-grapheme/tree/v1.28.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[875e90aeea2777b6f135677f618529449334a612]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[875e90aeea2777b6f135677f618529449334a612]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/polyfill-intl-idn-1.28.0.0">
+      <author><![CDATA[Laurent Bassin, Trevor Rowbotham, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[polyfill-intl-idn]]></name>
+      <version><![CDATA[v1.28.0]]></version>
+      <description><![CDATA[Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/polyfill-intl-idn@v1.28.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/ecaafce9f77234a6a449d29e49267ba10499116d]]></url>
+          <comment><![CDATA[dist reference: ecaafce9f77234a6a449d29e49267ba10499116d]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-intl-idn.git]]></url>
+          <comment><![CDATA[source reference: ecaafce9f77234a6a449d29e49267ba10499116d]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-intl-idn/tree/v1.28.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[ecaafce9f77234a6a449d29e49267ba10499116d]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[ecaafce9f77234a6a449d29e49267ba10499116d]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/polyfill-intl-normalizer-1.28.0.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[polyfill-intl-normalizer]]></name>
+      <version><![CDATA[v1.28.0]]></version>
+      <description><![CDATA[Symfony polyfill for intl's Normalizer class and related functions]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/polyfill-intl-normalizer@v1.28.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/8c4ad05dd0120b6a53c1ca374dca2ad0a1c4ed92]]></url>
+          <comment><![CDATA[dist reference: 8c4ad05dd0120b6a53c1ca374dca2ad0a1c4ed92]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-intl-normalizer.git]]></url>
+          <comment><![CDATA[source reference: 8c4ad05dd0120b6a53c1ca374dca2ad0a1c4ed92]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-intl-normalizer/tree/v1.28.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[8c4ad05dd0120b6a53c1ca374dca2ad0a1c4ed92]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[8c4ad05dd0120b6a53c1ca374dca2ad0a1c4ed92]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/polyfill-mbstring-1.28.0.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[polyfill-mbstring]]></name>
+      <version><![CDATA[v1.28.0]]></version>
+      <description><![CDATA[Symfony polyfill for the Mbstring extension]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/polyfill-mbstring@v1.28.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/polyfill-mbstring/zipball/42292d99c55abe617799667f454222c54c60e229]]></url>
+          <comment><![CDATA[dist reference: 42292d99c55abe617799667f454222c54c60e229]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-mbstring.git]]></url>
+          <comment><![CDATA[source reference: 42292d99c55abe617799667f454222c54c60e229]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-mbstring/tree/v1.28.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[42292d99c55abe617799667f454222c54c60e229]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[42292d99c55abe617799667f454222c54c60e229]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/polyfill-php72-1.28.0.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[polyfill-php72]]></name>
+      <version><![CDATA[v1.28.0]]></version>
+      <description><![CDATA[Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/polyfill-php72@v1.28.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/polyfill-php72/zipball/70f4aebd92afca2f865444d30a4d2151c13c3179]]></url>
+          <comment><![CDATA[dist reference: 70f4aebd92afca2f865444d30a4d2151c13c3179]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-php72.git]]></url>
+          <comment><![CDATA[source reference: 70f4aebd92afca2f865444d30a4d2151c13c3179]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-php72/tree/v1.28.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[70f4aebd92afca2f865444d30a4d2151c13c3179]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[70f4aebd92afca2f865444d30a4d2151c13c3179]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/polyfill-php80-1.28.0.0">
+      <author><![CDATA[Ion Bazan, Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[polyfill-php80]]></name>
+      <version><![CDATA[v1.28.0]]></version>
+      <description><![CDATA[Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/polyfill-php80@v1.28.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/polyfill-php80/zipball/6caa57379c4aec19c0a12a38b59b26487dcfe4b5]]></url>
+          <comment><![CDATA[dist reference: 6caa57379c4aec19c0a12a38b59b26487dcfe4b5]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-php80.git]]></url>
+          <comment><![CDATA[source reference: 6caa57379c4aec19c0a12a38b59b26487dcfe4b5]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-php80/tree/v1.28.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[6caa57379c4aec19c0a12a38b59b26487dcfe4b5]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[6caa57379c4aec19c0a12a38b59b26487dcfe4b5]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/polyfill-php83-1.28.0.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[polyfill-php83]]></name>
+      <version><![CDATA[v1.28.0]]></version>
+      <description><![CDATA[Symfony polyfill backporting some PHP 8.3+ features to lower PHP versions]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/polyfill-php83@v1.28.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/polyfill-php83/zipball/b0f46ebbeeeda3e9d2faebdfbf4b4eae9b59fa11]]></url>
+          <comment><![CDATA[dist reference: b0f46ebbeeeda3e9d2faebdfbf4b4eae9b59fa11]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-php83.git]]></url>
+          <comment><![CDATA[source reference: b0f46ebbeeeda3e9d2faebdfbf4b4eae9b59fa11]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/polyfill-php83/tree/v1.28.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[b0f46ebbeeeda3e9d2faebdfbf4b4eae9b59fa11]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[b0f46ebbeeeda3e9d2faebdfbf4b4eae9b59fa11]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/process-6.3.4.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[process]]></name>
+      <version><![CDATA[v6.3.4]]></version>
+      <description><![CDATA[Executes commands in sub-processes]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/process@v6.3.4]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/process/zipball/0b5c29118f2e980d455d2e34a5659f4579847c54]]></url>
+          <comment><![CDATA[dist reference: 0b5c29118f2e980d455d2e34a5659f4579847c54]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/process.git]]></url>
+          <comment><![CDATA[source reference: 0b5c29118f2e980d455d2e34a5659f4579847c54]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/process/tree/v6.3.4]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[0b5c29118f2e980d455d2e34a5659f4579847c54]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[0b5c29118f2e980d455d2e34a5659f4579847c54]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/psr-http-message-bridge-2.3.1.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[psr-http-message-bridge]]></name>
+      <version><![CDATA[v2.3.1]]></version>
+      <description><![CDATA[PSR HTTP message bridge]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/psr-http-message-bridge@v2.3.1]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/psr-http-message-bridge/zipball/581ca6067eb62640de5ff08ee1ba6850a0ee472e]]></url>
+          <comment><![CDATA[dist reference: 581ca6067eb62640de5ff08ee1ba6850a0ee472e]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/psr-http-message-bridge.git]]></url>
+          <comment><![CDATA[source reference: 581ca6067eb62640de5ff08ee1ba6850a0ee472e]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[http://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/symfony/psr-http-message-bridge/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/psr-http-message-bridge/tree/v2.3.1]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[581ca6067eb62640de5ff08ee1ba6850a0ee472e]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[581ca6067eb62640de5ff08ee1ba6850a0ee472e]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[symfony-bridge]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/routing-6.3.5.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[routing]]></name>
+      <version><![CDATA[v6.3.5]]></version>
+      <description><![CDATA[Maps an HTTP request to a set of configuration variables]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/routing@v6.3.5]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/routing/zipball/82616e59acd3e3d9c916bba798326cb7796d7d31]]></url>
+          <comment><![CDATA[dist reference: 82616e59acd3e3d9c916bba798326cb7796d7d31]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/routing.git]]></url>
+          <comment><![CDATA[source reference: 82616e59acd3e3d9c916bba798326cb7796d7d31]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/routing/tree/v6.3.5]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[82616e59acd3e3d9c916bba798326cb7796d7d31]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[82616e59acd3e3d9c916bba798326cb7796d7d31]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/serializer-6.3.8.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[serializer]]></name>
+      <version><![CDATA[v6.3.8]]></version>
+      <description><![CDATA[Handles serializing and deserializing data structures, including object graphs, into array structures or other formats like XML and JSON.]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/serializer@v6.3.8]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/serializer/zipball/b3ad1515a276473f7919ac97e560017284a7c4bf]]></url>
+          <comment><![CDATA[dist reference: b3ad1515a276473f7919ac97e560017284a7c4bf]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/serializer.git]]></url>
+          <comment><![CDATA[source reference: b3ad1515a276473f7919ac97e560017284a7c4bf]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/serializer/tree/v6.3.8]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[b3ad1515a276473f7919ac97e560017284a7c4bf]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[b3ad1515a276473f7919ac97e560017284a7c4bf]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/service-contracts-3.4.0.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[service-contracts]]></name>
+      <version><![CDATA[v3.4.0]]></version>
+      <description><![CDATA[Generic abstractions related to writing services]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/service-contracts@v3.4.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/service-contracts/zipball/b3313c2dbffaf71c8de2934e2ea56ed2291a3838]]></url>
+          <comment><![CDATA[dist reference: b3313c2dbffaf71c8de2934e2ea56ed2291a3838]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/service-contracts.git]]></url>
+          <comment><![CDATA[source reference: b3313c2dbffaf71c8de2934e2ea56ed2291a3838]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/service-contracts/tree/v3.4.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[b3313c2dbffaf71c8de2934e2ea56ed2291a3838]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[b3313c2dbffaf71c8de2934e2ea56ed2291a3838]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/string-6.3.8.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[string]]></name>
+      <version><![CDATA[v6.3.8]]></version>
+      <description><![CDATA[Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/string@v6.3.8]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/string/zipball/13880a87790c76ef994c91e87efb96134522577a]]></url>
+          <comment><![CDATA[dist reference: 13880a87790c76ef994c91e87efb96134522577a]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/string.git]]></url>
+          <comment><![CDATA[source reference: 13880a87790c76ef994c91e87efb96134522577a]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/string/tree/v6.3.8]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[13880a87790c76ef994c91e87efb96134522577a]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[13880a87790c76ef994c91e87efb96134522577a]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/translation-contracts-3.4.0.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[translation-contracts]]></name>
+      <version><![CDATA[v3.4.0]]></version>
+      <description><![CDATA[Generic abstractions related to translation]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/translation-contracts@v3.4.0]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/translation-contracts/zipball/dee0c6e5b4c07ce851b462530088e64b255ac9c5]]></url>
+          <comment><![CDATA[dist reference: dee0c6e5b4c07ce851b462530088e64b255ac9c5]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/translation-contracts.git]]></url>
+          <comment><![CDATA[source reference: dee0c6e5b4c07ce851b462530088e64b255ac9c5]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/translation-contracts/tree/v3.4.0]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[dee0c6e5b4c07ce851b462530088e64b255ac9c5]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[dee0c6e5b4c07ce851b462530088e64b255ac9c5]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/validator-6.3.8.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[validator]]></name>
+      <version><![CDATA[v6.3.8]]></version>
+      <description><![CDATA[Provides tools to validate values]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/validator@v6.3.8]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/validator/zipball/f75b40e088d095db1e788b81605a76f4563cb80e]]></url>
+          <comment><![CDATA[dist reference: f75b40e088d095db1e788b81605a76f4563cb80e]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/validator.git]]></url>
+          <comment><![CDATA[source reference: f75b40e088d095db1e788b81605a76f4563cb80e]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/validator/tree/v6.3.8]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[f75b40e088d095db1e788b81605a76f4563cb80e]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[f75b40e088d095db1e788b81605a76f4563cb80e]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/var-dumper-6.3.8.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[var-dumper]]></name>
+      <version><![CDATA[v6.3.8]]></version>
+      <description><![CDATA[Provides mechanisms for walking through any arbitrary PHP variable]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/var-dumper@v6.3.8]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/var-dumper/zipball/81acabba9046550e89634876ca64bfcd3c06aa0a]]></url>
+          <comment><![CDATA[dist reference: 81acabba9046550e89634876ca64bfcd3c06aa0a]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/var-dumper.git]]></url>
+          <comment><![CDATA[source reference: 81acabba9046550e89634876ca64bfcd3c06aa0a]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/var-dumper/tree/v6.3.8]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[81acabba9046550e89634876ca64bfcd3c06aa0a]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[81acabba9046550e89634876ca64bfcd3c06aa0a]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/var-exporter-6.3.6.0">
+      <author><![CDATA[Nicolas Grekas, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[var-exporter]]></name>
+      <version><![CDATA[v6.3.6]]></version>
+      <description><![CDATA[Allows exporting any serializable PHP data structure to plain PHP code]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/var-exporter@v6.3.6]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/var-exporter/zipball/374d289c13cb989027274c86206ddc63b16a2441]]></url>
+          <comment><![CDATA[dist reference: 374d289c13cb989027274c86206ddc63b16a2441]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/var-exporter.git]]></url>
+          <comment><![CDATA[source reference: 374d289c13cb989027274c86206ddc63b16a2441]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/var-exporter/tree/v6.3.6]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[374d289c13cb989027274c86206ddc63b16a2441]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[374d289c13cb989027274c86206ddc63b16a2441]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="symfony/yaml-6.3.8.0">
+      <author><![CDATA[Fabien Potencier, Symfony Community]]></author>
+      <group><![CDATA[symfony]]></group>
+      <name><![CDATA[yaml]]></name>
+      <version><![CDATA[v6.3.8]]></version>
+      <description><![CDATA[Loads and dumps YAML files]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[MIT]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/symfony/yaml@v6.3.8]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/symfony/yaml/zipball/3493af8a8dad7fa91c77fa473ba23ecd95334a92]]></url>
+          <comment><![CDATA[dist reference: 3493af8a8dad7fa91c77fa473ba23ecd95334a92]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/yaml.git]]></url>
+          <comment><![CDATA[source reference: 3493af8a8dad7fa91c77fa473ba23ecd95334a92]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/symfony/yaml/tree/v6.3.8]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[3493af8a8dad7fa91c77fa473ba23ecd95334a92]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[3493af8a8dad7fa91c77fa473ba23ecd95334a92]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="twig/twig-3.7.1.0">
+      <author><![CDATA[Fabien Potencier, Twig Team, Armin Ronacher]]></author>
+      <group><![CDATA[twig]]></group>
+      <name><![CDATA[twig]]></name>
+      <version><![CDATA[v3.7.1]]></version>
+      <description><![CDATA[Twig, the flexible, fast, and secure template language for PHP]]></description>
+      <licenses>
+        <license>
+          <id><![CDATA[BSD-3-Clause]]></id>
+        </license>
+      </licenses>
+      <purl><![CDATA[pkg:composer/twig/twig@v3.7.1]]></purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url><![CDATA[https://api.github.com/repos/twigphp/Twig/zipball/a0ce373a0ca3bf6c64b9e3e2124aca502ba39554]]></url>
+          <comment><![CDATA[dist reference: a0ce373a0ca3bf6c64b9e3e2124aca502ba39554]]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/twigphp/Twig.git]]></url>
+          <comment><![CDATA[source reference: a0ce373a0ca3bf6c64b9e3e2124aca502ba39554]]></comment>
+        </reference>
+        <reference type="website">
+          <url><![CDATA[https://twig.symfony.com]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'homepage']]></comment>
+        </reference>
+        <reference type="issue-tracker">
+          <url><![CDATA[https://github.com/twigphp/Twig/issues]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.issues']]></comment>
+        </reference>
+        <reference type="vcs">
+          <url><![CDATA[https://github.com/twigphp/Twig/tree/v3.7.1]]></url>
+          <comment><![CDATA[as detected from Composer manifest 'support.source']]></comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="cdx:composer:package:distReference"><![CDATA[a0ce373a0ca3bf6c64b9e3e2124aca502ba39554]]></property>
+        <property name="cdx:composer:package:sourceReference"><![CDATA[a0ce373a0ca3bf6c64b9e3e2124aca502ba39554]]></property>
+        <property name="cdx:composer:package:type"><![CDATA[library]]></property>
+      </properties>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="asm89/stack-cors-2.1.1.0">
+      <dependency ref="symfony/http-foundation-6.3.8.0"/>
+      <dependency ref="symfony/http-kernel-6.3.8.0"/>
+    </dependency>
+    <dependency ref="composer/ca-bundle-1.3.7.0"/>
+    <dependency ref="composer/semver-3.4.0.0"/>
+    <dependency ref="composer/spdx-licenses-1.5.7.0"/>
+    <dependency ref="cyclonedx/cyclonedx-library-3.0.1.0">
+      <dependency ref="composer/spdx-licenses-1.5.7.0"/>
+      <dependency ref="opis/json-schema-2.3.0.0"/>
+      <dependency ref="package-url/packageurl-php-1.0.6.0"/>
+    </dependency>
+    <dependency ref="cyclonedx/cyclonedx-php-composer-4.2.2.0">
+      <dependency ref="cyclonedx/cyclonedx-library-3.0.1.0"/>
+      <dependency ref="package-url/packageurl-php-1.0.6.0"/>
+    </dependency>
+    <dependency ref="doctrine/annotations-1.14.3.0">
+      <dependency ref="doctrine/lexer-2.1.0.0"/>
+      <dependency ref="psr/cache-3.0.0.0"/>
+    </dependency>
+    <dependency ref="doctrine/deprecations-1.1.2.0"/>
+    <dependency ref="doctrine/lexer-2.1.0.0">
+      <dependency ref="doctrine/deprecations-1.1.2.0"/>
+    </dependency>
+    <dependency ref="dompdf/dompdf-0.8.4.0">
+      <dependency ref="phenx/php-font-lib-0.5.4.0"/>
+      <dependency ref="phenx/php-svg-lib-0.3.4.0"/>
+    </dependency>
+    <dependency ref="drupal/core-10.1.6.0">
+      <dependency ref="asm89/stack-cors-2.1.1.0"/>
+      <dependency ref="composer/semver-3.4.0.0"/>
+      <dependency ref="doctrine/annotations-1.14.3.0"/>
+      <dependency ref="egulias/email-validator-4.0.2.0"/>
+      <dependency ref="guzzlehttp/guzzle-7.8.0.0"/>
+      <dependency ref="guzzlehttp/psr7-2.6.1.0"/>
+      <dependency ref="masterminds/html5-2.8.1.0"/>
+      <dependency ref="mck89/peast-1.15.4.0"/>
+      <dependency ref="pear/archive_tar-1.4.14.0"/>
+      <dependency ref="psr/log-3.0.0.0"/>
+      <dependency ref="sebastian/diff-4.0.5.0"/>
+      <dependency ref="symfony/console-6.3.8.0"/>
+      <dependency ref="symfony/dependency-injection-6.3.8.0"/>
+      <dependency ref="symfony/event-dispatcher-6.3.2.0"/>
+      <dependency ref="symfony/http-foundation-6.3.8.0"/>
+      <dependency ref="symfony/http-kernel-6.3.8.0"/>
+      <dependency ref="symfony/mime-6.3.5.0"/>
+      <dependency ref="symfony/polyfill-iconv-1.28.0.0"/>
+      <dependency ref="symfony/process-6.3.4.0"/>
+      <dependency ref="symfony/psr-http-message-bridge-2.3.1.0"/>
+      <dependency ref="symfony/routing-6.3.5.0"/>
+      <dependency ref="symfony/serializer-6.3.8.0"/>
+      <dependency ref="symfony/validator-6.3.8.0"/>
+      <dependency ref="symfony/yaml-6.3.8.0"/>
+      <dependency ref="twig/twig-3.7.1.0"/>
+    </dependency>
+    <dependency ref="drupal/mollie-2.2.0.0">
+      <dependency ref="drupal/core-10.1.6.0"/>
+      <dependency ref="mollie/mollie-api-php-2.63.0.0"/>
+    </dependency>
+    <dependency ref="egulias/email-validator-4.0.2.0">
+      <dependency ref="doctrine/lexer-2.1.0.0"/>
+      <dependency ref="symfony/polyfill-intl-idn-1.28.0.0"/>
+    </dependency>
+    <dependency ref="guzzlehttp/guzzle-7.8.0.0">
+      <dependency ref="guzzlehttp/promises-2.0.1.0"/>
+      <dependency ref="guzzlehttp/psr7-2.6.1.0"/>
+      <dependency ref="psr/http-client-1.0.3.0"/>
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+    </dependency>
+    <dependency ref="guzzlehttp/promises-2.0.1.0"/>
+    <dependency ref="guzzlehttp/psr7-2.6.1.0">
+      <dependency ref="psr/http-factory-1.0.2.0"/>
+      <dependency ref="psr/http-message-2.0.0.0"/>
+      <dependency ref="ralouphie/getallheaders-3.0.3.0"/>
+    </dependency>
+    <dependency ref="masterminds/html5-2.8.1.0"/>
+    <dependency ref="mck89/peast-1.15.4.0"/>
+    <dependency ref="mollie/mollie-api-php-2.63.0.0">
+      <dependency ref="composer/ca-bundle-1.3.7.0"/>
+    </dependency>
+    <dependency ref="opis/json-schema-2.3.0.0">
+      <dependency ref="opis/string-2.0.1.0"/>
+      <dependency ref="opis/uri-1.1.0.0"/>
+    </dependency>
+    <dependency ref="opis/string-2.0.1.0"/>
+    <dependency ref="opis/uri-1.1.0.0">
+      <dependency ref="opis/string-2.0.1.0"/>
+    </dependency>
+    <dependency ref="package-url/packageurl-php-1.0.6.0"/>
+    <dependency ref="pear/archive_tar-1.4.14.0">
+      <dependency ref="pear/pear-core-minimal-1.10.13.0"/>
+    </dependency>
+    <dependency ref="pear/console_getopt-1.4.3.0"/>
+    <dependency ref="pear/pear-core-minimal-1.10.13.0">
+      <dependency ref="pear/console_getopt-1.4.3.0"/>
+      <dependency ref="pear/pear_exception-1.0.2.0"/>
+    </dependency>
+    <dependency ref="pear/pear_exception-1.0.2.0"/>
+    <dependency ref="phenx/php-font-lib-0.5.4.0"/>
+    <dependency ref="phenx/php-svg-lib-0.3.4.0">
+      <dependency ref="sabberworm/php-css-parser-8.4.0.0"/>
+    </dependency>
+    <dependency ref="psr/cache-3.0.0.0"/>
+    <dependency ref="psr/container-2.0.2.0"/>
+    <dependency ref="psr/event-dispatcher-1.0.0.0"/>
+    <dependency ref="psr/http-client-1.0.3.0">
+      <dependency ref="psr/http-message-2.0.0.0"/>
+    </dependency>
+    <dependency ref="psr/http-factory-1.0.2.0">
+      <dependency ref="psr/http-message-2.0.0.0"/>
+    </dependency>
+    <dependency ref="psr/http-message-2.0.0.0"/>
+    <dependency ref="psr/log-3.0.0.0"/>
+    <dependency ref="ralouphie/getallheaders-3.0.3.0"/>
+    <dependency ref="sabberworm/php-css-parser-8.4.0.0"/>
+    <dependency ref="sebastian/diff-4.0.5.0"/>
+    <dependency ref="symfony/console-6.3.8.0">
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+      <dependency ref="symfony/polyfill-mbstring-1.28.0.0"/>
+      <dependency ref="symfony/service-contracts-3.4.0.0"/>
+      <dependency ref="symfony/string-6.3.8.0"/>
+    </dependency>
+    <dependency ref="symfony/dependency-injection-6.3.8.0">
+      <dependency ref="psr/container-2.0.2.0"/>
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+      <dependency ref="symfony/service-contracts-3.4.0.0"/>
+      <dependency ref="symfony/var-exporter-6.3.6.0"/>
+    </dependency>
+    <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+    <dependency ref="symfony/error-handler-6.3.5.0">
+      <dependency ref="psr/log-3.0.0.0"/>
+      <dependency ref="symfony/var-dumper-6.3.8.0"/>
+    </dependency>
+    <dependency ref="symfony/event-dispatcher-6.3.2.0">
+      <dependency ref="symfony/event-dispatcher-contracts-3.4.0.0"/>
+    </dependency>
+    <dependency ref="symfony/event-dispatcher-contracts-3.4.0.0">
+      <dependency ref="psr/event-dispatcher-1.0.0.0"/>
+    </dependency>
+    <dependency ref="symfony/http-foundation-6.3.8.0">
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+      <dependency ref="symfony/polyfill-mbstring-1.28.0.0"/>
+      <dependency ref="symfony/polyfill-php83-1.28.0.0"/>
+    </dependency>
+    <dependency ref="symfony/http-kernel-6.3.8.0">
+      <dependency ref="psr/log-3.0.0.0"/>
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+      <dependency ref="symfony/error-handler-6.3.5.0"/>
+      <dependency ref="symfony/event-dispatcher-6.3.2.0"/>
+      <dependency ref="symfony/http-foundation-6.3.8.0"/>
+      <dependency ref="symfony/polyfill-ctype-1.28.0.0"/>
+    </dependency>
+    <dependency ref="symfony/mime-6.3.5.0">
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+      <dependency ref="symfony/polyfill-intl-idn-1.28.0.0"/>
+      <dependency ref="symfony/polyfill-mbstring-1.28.0.0"/>
+    </dependency>
+    <dependency ref="symfony/polyfill-ctype-1.28.0.0"/>
+    <dependency ref="symfony/polyfill-iconv-1.28.0.0"/>
+    <dependency ref="symfony/polyfill-intl-grapheme-1.28.0.0"/>
+    <dependency ref="symfony/polyfill-intl-idn-1.28.0.0">
+      <dependency ref="symfony/polyfill-intl-normalizer-1.28.0.0"/>
+      <dependency ref="symfony/polyfill-php72-1.28.0.0"/>
+    </dependency>
+    <dependency ref="symfony/polyfill-intl-normalizer-1.28.0.0"/>
+    <dependency ref="symfony/polyfill-mbstring-1.28.0.0"/>
+    <dependency ref="symfony/polyfill-php72-1.28.0.0"/>
+    <dependency ref="symfony/polyfill-php80-1.28.0.0"/>
+    <dependency ref="symfony/polyfill-php83-1.28.0.0">
+      <dependency ref="symfony/polyfill-php80-1.28.0.0"/>
+    </dependency>
+    <dependency ref="symfony/process-6.3.4.0"/>
+    <dependency ref="symfony/psr-http-message-bridge-2.3.1.0">
+      <dependency ref="psr/http-message-2.0.0.0"/>
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+      <dependency ref="symfony/http-foundation-6.3.8.0"/>
+    </dependency>
+    <dependency ref="symfony/routing-6.3.5.0">
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+    </dependency>
+    <dependency ref="symfony/serializer-6.3.8.0">
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+      <dependency ref="symfony/polyfill-ctype-1.28.0.0"/>
+    </dependency>
+    <dependency ref="symfony/service-contracts-3.4.0.0">
+      <dependency ref="psr/container-2.0.2.0"/>
+    </dependency>
+    <dependency ref="symfony/string-6.3.8.0">
+      <dependency ref="symfony/polyfill-ctype-1.28.0.0"/>
+      <dependency ref="symfony/polyfill-intl-grapheme-1.28.0.0"/>
+      <dependency ref="symfony/polyfill-intl-normalizer-1.28.0.0"/>
+      <dependency ref="symfony/polyfill-mbstring-1.28.0.0"/>
+    </dependency>
+    <dependency ref="symfony/translation-contracts-3.4.0.0"/>
+    <dependency ref="symfony/validator-6.3.8.0">
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+      <dependency ref="symfony/polyfill-ctype-1.28.0.0"/>
+      <dependency ref="symfony/polyfill-mbstring-1.28.0.0"/>
+      <dependency ref="symfony/polyfill-php83-1.28.0.0"/>
+      <dependency ref="symfony/translation-contracts-3.4.0.0"/>
+    </dependency>
+    <dependency ref="symfony/var-dumper-6.3.8.0">
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+      <dependency ref="symfony/polyfill-mbstring-1.28.0.0"/>
+    </dependency>
+    <dependency ref="symfony/var-exporter-6.3.6.0"/>
+    <dependency ref="symfony/yaml-6.3.8.0">
+      <dependency ref="symfony/deprecation-contracts-3.4.0.0"/>
+      <dependency ref="symfony/polyfill-ctype-1.28.0.0"/>
+    </dependency>
+    <dependency ref="twig/twig-3.7.1.0">
+      <dependency ref="symfony/polyfill-ctype-1.28.0.0"/>
+      <dependency ref="symfony/polyfill-mbstring-1.28.0.0"/>
+    </dependency>
+    <dependency ref="tvlooy/vuln-mollie-dev-main">
+      <dependency ref="drupal/mollie-2.2.0.0"/>
+      <dependency ref="dompdf/dompdf-0.8.4.0"/>
+      <dependency ref="cyclonedx/cyclonedx-php-composer-4.2.2.0"/>
+    </dependency>
+  </dependencies>
+</bom>

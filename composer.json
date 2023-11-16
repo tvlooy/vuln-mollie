@@ -13,5 +13,13 @@
         "dompdf/dompdf": "v0.8.4"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "cyclonedx/cyclonedx-php-composer": "^4.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "cyclonedx/cyclonedx-php-composer": true
+        }
+    }
 }
