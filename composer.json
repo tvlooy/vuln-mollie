@@ -1,0 +1,16 @@
+{
+    "name": "tvlooy/vuln-mollie",
+    "type": "project",
+    "license": "MIT",
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "require": {
+        "drupal/mollie": "2.2.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
